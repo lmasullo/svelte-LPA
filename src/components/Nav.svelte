@@ -1,11 +1,12 @@
 <script>
+
 </script>
 
 <style>
+
 </style>
 
 <header>
-  <!-- <h1 class="fake-logo">Lampasas Pilots Association</h1> -->
   <div>
     <img src="/images/LPA_64.png" alt="LPA Logo" />
     Lampasas Pilots Association

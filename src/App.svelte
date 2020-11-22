@@ -26,10 +26,11 @@
   } */
 </style>
 
+<Nav />
 <main>
-  <Nav />
 
   <div class="carousel">
+    <!-- <img src="images/cub_logo_med.png" alt="LPA Logo" /> -->
     <div class="logo">
       <img src="images/LPA_Center_Logo_512.png" alt="LPA Logo" />
     </div>

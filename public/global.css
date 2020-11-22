@@ -108,7 +108,7 @@ body {
 main {
   /* margin: 0 auto;
   width: 95%; */
-  padding: calc(2rem + var(--headerHeight)) var(--containerPadding);
+  padding: calc(3rem + var(--headerHeight)) var(--containerPadding);
 }
 
 header {
@@ -145,8 +145,8 @@ header nav a + a {
 
   /* background: linear-gradient(black, white); */
 
-  background-image: url("/images/cub_large_3.png");
-  height: 50vh;
+  background-image: url("/images/cub_large_4.png");
+  height: 60vh;
   background-repeat: no-repeat;
   /* background-attachment: fixed; */
   /* background-size: contain; */
@@ -185,14 +185,14 @@ footer {
   width: 100%;
 }
 
-footer a {
+/* footer a {
   color: var(--footerTextColor);
 }
 
 footer p {
   margin-bottom: 0;
   max-width: none;
-}
+} */
 
 /* html, body {
 	position: relative;
