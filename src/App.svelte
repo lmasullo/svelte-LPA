@@ -26,9 +26,8 @@
   } */
 </style>
 
-<Nav />
 <main>
-
+  <Nav />
   <div class="carousel">
     <!-- <img src="images/cub_logo_med.png" alt="LPA Logo" /> -->
     <div class="logo">
@@ -36,11 +35,24 @@
     </div>
   </div>
 
-  <p>
-    Visit the
-    <a href="https://svelte.dev/tutorial">Svelte tutorial</a>
-    to learn how to build Svelte apps.
-  </p>
+  <div class="card">
+    <h3>Card Heading</h3>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor
+    </p>
+    <button>Accept</button>
+  </div>
+
+  <div class="card">
+    <h3>Card Heading</h3>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor
+    </p>
+    <button>Accept</button>
+  </div>
 
   <Footer />
+
 </main>

@@ -21,7 +21,7 @@
   --buttonColor: var(--primary);
   --buttonTextColor: var(--black);
   --lineColor: var(--darkBlue);
-  --cardBackground: var(--white);
+  --cardBackground: var(--grey);
   --headerBackground: var(--darkBlue);
   --footerTextColor: var(--lightGrey);
   --footerBackground: var(--black);
@@ -53,6 +53,7 @@
   /* Positioning */
   --containerPadding: 2.5%;
   --headerHeight: 3rem;
+  --footerHeight: 5rem;
   --borderRadius: 10px;
 }
 
@@ -108,22 +109,29 @@ body {
 main {
   /* margin: 0 auto;
   width: 95%; */
-  padding: calc(3rem + var(--headerHeight)) var(--containerPadding);
+
+  padding: calc(var(--headerHeight)) 0 calc(3rem + var(--footerHeight)) 0; */
+  /* padding: calc(3rem + var(--headerHeight)) calc(3rem + var(--footerHeight)); */
+
+  /* padding: var(--containerPadding) calc(3rem + var(--footerHeight)) ; */
 }
 
 header {
   background: var(--headerBackground);
   color: var(--white);
   height: var(--headerHeight);
+  padding: var(--containerPadding);
   box-shadow: var(--level-2);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: var(--containerPadding);
+  
   position: fixed;
   left: 0;
   top: 0;
   width: 100%;
+
+  z-index: 1000;
 }
 
 header nav a {
@@ -145,6 +153,8 @@ header nav a + a {
 
   /* background: linear-gradient(black, white); */
 
+  /* padding: calc(3rem + var(--headerHeight)) 2rem  2rem 2rem; */
+
   background-image: url("/images/cub_large_4.png");
   height: 60vh;
   background-repeat: no-repeat;
@@ -155,6 +165,7 @@ header nav a + a {
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 .logo {
@@ -172,27 +183,53 @@ header nav a + a {
   /* align-content: center; */
 
   opacity: 0.8;
+
+  border-radius: var(--borderRadius);
+}
+
+.card {
+  margin: 2rem;
+  padding: 2em;
+  background: var(--cardBackground);
+  box-shadow: var(--level-3);
+  border-radius: var(--borderRadius);
+}
+
+/* First child element within a card */
+.card > *:first-child {
+  margin-top: 0;
+} 
+
+.card > *:last-child {
+  margin-bottom: 0;
 }
 
 footer {
-  background: var(--footerBackground);
+background: var(--footerBackground);
   color: var(--white);
-  padding: 2rem var(--containerPadding);
-  text-align: center;
+  
+  height: var(--footerHeight);
+  padding: var(--containerPadding);
+     
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
 }
+ 
+footer p{
+  padding-left: 1rem;
+} 
 
 /* footer a {
   color: var(--footerTextColor);
 }
 
-footer p {
-  margin-bottom: 0;
-  max-width: none;
-} */
+ */
 
 /* html, body {
 	position: relative;
