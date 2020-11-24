@@ -4,30 +4,23 @@
 
   /* Define Colors as Colors */
   --black: #1b2d45;
-  --green: #00ebc7;
-  --red: #ff5470;
+  --red: #da625b;
   --yellow: #fde24f;
   --darkBlue: #00214d;
-  --grey: #bfbfbf;
   --lightGrey: #f2f4f6;
-  --darkGrey: #222;
   --white: #fff;
 
   /* Define Colors Intentions */
-  --primary: var(--green);
-  --danger: var(--red);
   --background: var(--lightGrey);
   --textColor: var(--black);
-  --buttonColor: var(--primary);
-  --buttonTextColor: var(--black);
-  --lineColor: var(--darkBlue);
-  --cardBackground: var(--grey);
+  --lineColor: var(--yellow);
+  --cardBackground: var(--white);
   --headerBackground: var(--darkBlue);
   --footerTextColor: var(--lightGrey);
   --footerBackground: var(--black);
 
   /* Styles */
-  --line: solid 1px var(--lineColor);
+  /* --line: solid 1px var(--lineColor); */
 
   /* Typography */
   /* 100% is 16px, 112.5% is 18px */
@@ -107,13 +100,7 @@ body {
 }
 
 main {
-  /* margin: 0 auto;
-  width: 95%; */
-
-  padding: calc(var(--headerHeight)) 0 calc(3rem + var(--footerHeight)) 0; */
-  /* padding: calc(3rem + var(--headerHeight)) calc(3rem + var(--footerHeight)); */
-
-  /* padding: var(--containerPadding) calc(3rem + var(--footerHeight)) ; */
+  padding: calc(2rem + var(--headerHeight)); 
 }
 
 header {
@@ -125,12 +112,10 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
   position: fixed;
   left: 0;
   top: 0;
   width: 100%;
-
   z-index: 1000;
 }
 
@@ -140,7 +125,11 @@ header nav a {
 }
 
 header nav a:hover {
-  border-bottom: solid 2px var(--yellow);
+  border-bottom: solid 2px var(--lineColor);
+}
+
+header span {
+  font-size: 1.25rem;
 }
 
 /* The plus a only puts the margin on a element it it is next to another element */
@@ -148,42 +137,36 @@ header nav a + a {
   margin-left: 10px;
 }
 
+p a {
+  color: var(--red);
+  text-decoration: none;
+} 
+
+p a:hover { 
+  color: var(--darkBlue);
+  font-size: 1.025rem;
+  transition: 0.2s;
+  border-bottom: solid 2px var(--yellow); */
+}
+
 .carousel {
-  /* background: var(--grey); */
-
-  /* background: linear-gradient(black, white); */
-
-  /* padding: calc(3rem + var(--headerHeight)) 2rem  2rem 2rem; */
-
   background-image: url("/images/cub_large_4.png");
   height: 60vh;
   background-repeat: no-repeat;
-  /* background-attachment: fixed; */
-  /* background-size: contain; */
-  /* background-size: auto; */
   background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 
 .logo {
-  /* background-image: url("/images/LPA_black_256.png");
-  background-repeat: no-repeat;
-	background-position: center; */
-
   background-color: var(--white);
   display: flex;
   justify-content: center;
   align-items: center;
-
   height: 256px;
   width: 500px;
-  /* align-content: center; */
-
   opacity: 0.8;
-
   border-radius: var(--borderRadius);
 }
 
@@ -193,6 +176,11 @@ header nav a + a {
   background: var(--cardBackground);
   box-shadow: var(--level-3);
   border-radius: var(--borderRadius);
+  scroll-margin-top: 100px;
+}
+
+.card h3 {
+  color: var(--darkBlue);
 }
 
 /* First child element within a card */
@@ -207,14 +195,11 @@ header nav a + a {
 footer {
 background: var(--footerBackground);
   color: var(--white);
-  
   height: var(--footerHeight);
   padding: var(--containerPadding);
-     
   display: flex;
   justify-content: center;
   align-items: center;
-
   position: fixed;
   left: 0;
   bottom: 0;
@@ -224,77 +209,3 @@ background: var(--footerBackground);
 footer p{
   padding-left: 1rem;
 } 
-
-/* footer a {
-  color: var(--footerTextColor);
-}
-
- */
-
-/* html, body {
-	position: relative;
-	width: 100%;
-	height: 100%;
-} */
-
-/* body {
-  color: #333;
-  margin: 0;
-  padding: 8px;
-  box-sizing: border-box;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-}
-
-a {
-  color: rgb(0, 100, 200);
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-a:visited {
-  color: rgb(0, 80, 160);
-}
-
-label {
-  display: block;
-} */
-
-/* input,
-button,
-select,
-textarea {
-  font-family: inherit;
-  font-size: inherit;
-  -webkit-padding: 0.4em 0;
-  padding: 0.4em;
-  margin: 0 0 0.5em 0;
-  box-sizing: border-box;
-  border: 1px solid #ccc;
-  border-radius: 2px;
-} */
-
-/* input:disabled {
-  color: #ccc;
-} */
-
-/* button {
-  color: #333;
-  background-color: #f4f4f4;
-  outline: none;
-}
-
-button:disabled {
-  color: #999;
-}
-
-button:not(:disabled):active {
-  background-color: #ddd;
-}
-
-button:focus {
-  border-color: #666;
-} */

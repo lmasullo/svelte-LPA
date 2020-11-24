@@ -9,13 +9,13 @@
 <header>
   <div>
     <img src="/images/LPA_64.png" alt="LPA Logo" />
-    Lampasas Pilots Association
+    <span>Lampasas Pilots Association</span>
   </div>
 
   <nav>
-    <a href="##">Home</a>
-    <a href="##">About</a>
-    <a href="##">Meetings</a>
-    <a href="##">Contact</a>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#meeting">Meetings</a>
+    <a href="#contact">Contact</a>
   </nav>
 </header>

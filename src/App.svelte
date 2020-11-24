@@ -5,52 +5,75 @@
 </script>
 
 <style>
-  /* main {
-    text-align: center;
-    padding: 1em;
-    max-width: 240px;
-    margin: 0 auto;
-  } */
 
-  /* h1 {
-    color: #ff3e00;
-    text-transform: uppercase;
-    font-size: 4em;
-    font-weight: 100;
-  } */
-
-  /* @media (min-width: 640px) {
-    main {
-      max-width: none;
-    }
-  } */
 </style>
 
 <main>
   <Nav />
-  <div class="carousel">
-    <!-- <img src="images/cub_logo_med.png" alt="LPA Logo" /> -->
+  <div id="home" class="carousel">
     <div class="logo">
       <img src="images/LPA_Center_Logo_512.png" alt="LPA Logo" />
     </div>
   </div>
 
-  <div class="card">
-    <h3>Card Heading</h3>
+  <!-- About Card -->
+  <div id="about" class="card">
+    <h3>About the LPA</h3>
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor
+      Lampasas Pilots Association was established in the early 1970s by Jane S.
+      King. Jane arrived in Lampasas as a CFI and provided training for many of
+      Lampasas' pilots. She organized those early pilots that were hanging
+      around the airport into what is now the Lampasas Pilots Association.
     </p>
-    <button>Accept</button>
+    <p>Thank you Jane!</p>
   </div>
 
-  <div class="card">
-    <h3>Card Heading</h3>
+  <!-- Meeting Card -->
+  <div id="meeting" class="card">
+    <h3>LPA Meeting</h3>
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor
+      Our next meeting will be Saturday, January 9, 2021, 0800.
+      <br />
+      The meeting will be held in a private room at Putter's and Gutters on 281
+      South in Lampasas, TX.
     </p>
-    <button>Accept</button>
+
+    <p>
+      <a target="_blank" href="https://www.puttersandgutters.com/">
+        Click Here for Their Website
+      </a>
+    </p>
+  </div>
+
+  <!-- Contact Card -->
+  <div id="contact" class="card">
+    <h3>Contact Us</h3>
+
+    <p>
+      Interested in joining the Lampasas Pilots Association or just want some
+      more information? Send us a message.
+      <br />
+      <a target="_blank" href="mailto:info@lampasaspilotsassociation.org">
+        Click to Email - info@lampasaspilotsassociation.org
+      </a>
+    </p>
+
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7688.606183263735!2d-98.19847999865405!3d31.09607643966836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe7cc403c4b711cbd!2sLampasas%20Airport-LZZ!5e0!3m2!1sen!2sus!4v1606148239591!5m2!1sen!2sus"
+      width="600"
+      height="450"
+      frameborder="0"
+      style="border:0;"
+      allowfullscreen=""
+      aria-hidden="false"
+      tabindex="0"
+      title="Embedded Google Map of KLZZ" />
+
+    <p>
+      <a target="_blank" href="http://www.airnav.com/airport/KLZZ">
+        KLZZ at AirNav.com
+      </a>
+    </p>
   </div>
 
   <Footer />
