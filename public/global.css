@@ -146,7 +146,7 @@ p a:hover {
   color: var(--darkBlue);
   font-size: 1.025rem;
   transition: 0.2s;
-  border-bottom: solid 2px var(--yellow); */
+  border-bottom: solid 2px var(--yellow);
 }
 
 .carousel {
