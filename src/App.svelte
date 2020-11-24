@@ -7,15 +7,15 @@
 <style>
 </style>
 
-<div id="myLinks">
-  <a href="#home">Home</a>
-  <a href="#about">About</a>
-  <a href="#meeting">Meetings</a>
-  <a href="#contact">Contact</a>
-</div>
-
 <main>
   <Nav />
+  <div id="myLinks">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#meeting">Meetings</a>
+    <a href="#contact">Contact</a>
+  </div>
+
   <div id="home" class="carousel ">
     <div class="logo">
       <img
