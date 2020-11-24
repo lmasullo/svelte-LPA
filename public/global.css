@@ -46,7 +46,7 @@
   /* Positioning */
   --containerPadding: 2rem;
   --headerHeight: 3rem;
-  --footerHeight: 5rem;
+  --footerHeight: 3rem;
   --borderRadius: 10px;
 }
 
@@ -259,14 +259,6 @@ footer p {
     padding-bottom: calc(1rem + var(--containerPadding));
   }
 
-  /* header img {
-    width: 15%;
-  }
-
-  header span {
-    font-size: 95%;
-  } */
-
   header nav {
     display: none;
   }
@@ -291,10 +283,24 @@ footer p {
     margin: 1rem;
     padding: 1em;
   }
+
+  footer {
+    padding-bottom: calc(0.5rem +var(--containerPadding));
+  }
 }
 
 @media only screen and (min-width: 676px) {
   #myLinks {
     display: none !important;
+  }
+}
+
+@media only screen and (max-width: 675px) {
+  header img {
+    width: 25%;
+  }
+
+  header span {
+    font-size: 99%;
   }
 }
