@@ -1,9 +1,15 @@
 <script>
-
+  function fnMenu() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
 </script>
 
 <style>
-
 </style>
 
 <header>
@@ -18,4 +24,10 @@
     <a href="#meeting">Meetings</a>
     <a href="#contact">Contact</a>
   </nav>
+
+  <img
+    id="hamburger"
+    src="images/hamburger_32.png"
+    alt="Menu"
+    on:click={fnMenu} />
 </header>

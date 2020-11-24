@@ -5,14 +5,23 @@
 </script>
 
 <style>
-
 </style>
+
+<div id="myLinks">
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#meeting">Meetings</a>
+  <a href="#contact">Contact</a>
+</div>
 
 <main>
   <Nav />
-  <div id="home" class="carousel">
+  <div id="home" class="carousel ">
     <div class="logo">
-      <img src="images/LPA_Center_Logo_512.png" alt="LPA Logo" />
+      <img
+        class="responsiveImage"
+        src="images/LPA_Center_Logo_512.png"
+        alt="LPA Logo" />
     </div>
   </div>
 
@@ -60,7 +69,7 @@
 
     <iframe
       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7688.606183263735!2d-98.19847999865405!3d31.09607643966836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe7cc403c4b711cbd!2sLampasas%20Airport-LZZ!5e0!3m2!1sen!2sus!4v1606148239591!5m2!1sen!2sus"
-      width="600"
+      width="95%"
       height="450"
       frameborder="0"
       style="border:0;"
@@ -77,5 +86,4 @@
   </div>
 
   <Footer />
-
 </main>

@@ -100,7 +100,7 @@ body {
 }
 
 main {
-  padding: calc(2rem + var(--headerHeight)); 
+  padding: calc(2rem + var(--headerHeight));
 }
 
 header {
@@ -117,6 +117,34 @@ header {
   top: 0;
   width: 100%;
   z-index: 1000;
+}
+
+#hamburger {
+  display: none;
+  width: 32px;
+  height: 32px;
+  padding: 2px;
+}
+
+#myLinks {
+  display: none;
+  width: 100%;
+  margin-top: calc(var(--headerHeight));
+  background: var(--black);
+  padding: 1rem 0 1rem 1rem;
+}
+
+#myLinks a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+#myLinks a + a {
+  margin-left: 10px;
+}
+
+#myLinks a:hover {
+  border-bottom: solid 2px var(--lineColor);
 }
 
 header nav a {
@@ -140,9 +168,9 @@ header nav a + a {
 p a {
   color: var(--red);
   text-decoration: none;
-} 
+}
 
-p a:hover { 
+p a:hover {
   color: var(--darkBlue);
   font-size: 1.025rem;
   transition: 0.2s;
@@ -164,10 +192,15 @@ p a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 256px;
-  width: 500px;
+  max-height: 256px;
+  max-width: 500px;
   opacity: 0.8;
   border-radius: var(--borderRadius);
+}
+
+.responsiveImage {
+  max-width: 100%;
+  height: auto;
 }
 
 .card {
@@ -186,14 +219,14 @@ p a:hover {
 /* First child element within a card */
 .card > *:first-child {
   margin-top: 0;
-} 
+}
 
 .card > *:last-child {
   margin-bottom: 0;
 }
 
 footer {
-background: var(--footerBackground);
+  background: var(--footerBackground);
   color: var(--white);
   height: var(--footerHeight);
   padding: var(--containerPadding);
@@ -205,7 +238,75 @@ background: var(--footerBackground);
   bottom: 0;
   width: 100%;
 }
- 
-footer p{
+
+footer p {
   padding-left: 1rem;
-} 
+}
+
+/* Media Queries */
+/* Can't use css variables in media queries */
+@media only screen and (max-width: 675px) {
+  /* body {
+    background: red !important;
+	} */
+
+  html {
+    font-size: 75%;
+  }
+
+  main {
+    padding: calc(2rem + var(--headerHeight)) 1rem
+      calc(2rem + var(--headerHeight)) 1rem;
+
+    /* margin-top: 0; */
+  }
+
+  header img {
+    width: 15%;
+    /* max-width: 400px; */
+    /* height: auto; */
+  }
+
+  header span {
+    font-size: 75%;
+  }
+
+  header nav {
+    display: none;
+  }
+
+  #hamburger {
+    display: block;
+  }
+
+  /* nav a:hover {
+    border-bottom: solid 2px var(--lineColor);
+  } */
+
+  .carousel {
+    height: 30vh;
+  }
+
+  .logo {
+    margin: 2rem;
+  }
+
+  .card {
+    margin: 1rem;
+    padding: 1em;
+  }
+
+  /* .grid {
+    display: grid;
+  } */
+
+  /* .flex {
+    display: flex;
+	} */
+}
+
+@media only screen and (min-width: 676px) {
+  #myLinks {
+    display: none !important;
+  }
+}
