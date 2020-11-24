@@ -251,7 +251,7 @@ footer p {
   }
 
   main {
-    padding: calc(2rem + var(--headerHeight)) 1rem
+    padding: calc(3rem + var(--headerHeight)) 1rem
       calc(2rem + var(--headerHeight)) 1rem;
   }
 
