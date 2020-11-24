@@ -131,7 +131,7 @@ header {
   width: 100%;
   margin-top: calc(var(--headerHeight));
   background: var(--black);
-  padding: 1rem 0 1rem 1rem;
+  padding: 3rem 0 1rem 1rem;
 }
 
 #myLinks a {
@@ -246,10 +246,6 @@ footer p {
 /* Media Queries */
 /* Can't use css variables in media queries */
 @media only screen and (max-width: 675px) {
-  /* body {
-    background: red !important;
-	} */
-
   html {
     font-size: 75%;
   }
@@ -259,13 +255,17 @@ footer p {
       calc(2rem + var(--headerHeight)) 1rem;
   }
 
-  header img {
+  header {
+    padding-bottom: calc(1rem + var(--containerPadding));
+  }
+
+  /* header img {
     width: 15%;
   }
 
   header span {
-    font-size: 75%;
-  }
+    font-size: 95%;
+  } */
 
   header nav {
     display: none;
@@ -291,14 +291,6 @@ footer p {
     margin: 1rem;
     padding: 1em;
   }
-
-  /* .grid {
-    display: grid;
-  } */
-
-  /* .flex {
-    display: flex;
-	} */
 }
 
 @media only screen and (min-width: 676px) {
