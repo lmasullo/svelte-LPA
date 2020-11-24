@@ -179,7 +179,7 @@ p a:hover {
 }
 
 .carousel {
-  background-image: url("/images/cub_large_4.png");
+  background-image: url("/images/cub.png");
   height: 60vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -246,6 +246,7 @@ footer p {
 
 /* Media Queries */
 /* Can't use css variables in media queries */
+/* Small screen version */
 @media only screen and (max-width: 675px) {
   html {
     font-size: 75%;
@@ -267,10 +268,6 @@ footer p {
     display: block;
   }
 
-  /* nav a:hover {
-    border-bottom: solid 2px var(--lineColor);
-  } */
-
   .carousel {
     height: 30vh;
   }
@@ -289,12 +286,14 @@ footer p {
   }
 }
 
+/* Makes myLinks menu hidden when rotate back to larger screen (e.g. landscape on phone) */
 @media only screen and (min-width: 676px) {
   #myLinks {
     display: none !important;
   }
 }
 
+/* Small devices like iPhone 5 and new foldable Samsung */
 @media only screen and (max-width: 675px) {
   header img {
     width: 25%;
