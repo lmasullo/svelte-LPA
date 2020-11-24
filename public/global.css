@@ -127,11 +127,12 @@ header {
 }
 
 #myLinks {
-  display: none;
-  width: 100%;
-  margin-top: calc(var(--headerHeight));
+  /* display: none; */
+  /* width: 100%; */
+  /* margin-top: calc(var(--headerHeight)); */
   background: var(--black);
   padding: 1rem 0 1rem 1rem;
+  text-align: center;
 }
 
 #myLinks a {
@@ -251,7 +252,7 @@ footer p {
   }
 
   main {
-    padding: 2rem 1rem calc(2rem + var(--headerHeight)) 1rem;
+    padding: 5rem 1rem calc(2rem + var(--headerHeight)) 1rem;
   }
 
   header {
