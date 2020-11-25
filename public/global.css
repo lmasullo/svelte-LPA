@@ -178,8 +178,12 @@ p a:hover {
   border-bottom: solid 2px var(--yellow);
 }
 
+/* 
+https://res.cloudinary.com/masullodevcloud/image/upload/v1606325594/LPA/cub_ur1xe0.png
+/images/cub.png
+*/
 .carousel {
-  background-image: url("/images/cub.png");
+  background-image: url("https://res.cloudinary.com/masullodevcloud/image/upload/q_auto,f_auto/v1606325594/LPA/cub_ur1xe0.png");
   height: 60vh;
   background-repeat: no-repeat;
   background-size: cover;
