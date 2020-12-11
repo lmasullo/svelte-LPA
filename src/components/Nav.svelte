@@ -11,6 +11,7 @@
 </script>
 
 <style>
+  /* Styles in global and base.css */
 </style>
 
 <header>
