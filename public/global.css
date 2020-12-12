@@ -251,6 +251,7 @@ footer p {
 /* Media Queries */
 /* Can't use css variables in media queries */
 /* Small screen version */
+/* Small devices like iPhone 5 and new foldable Samsung */
 @media only screen and (max-width: 675px) {
   html {
     font-size: 75%;
@@ -266,6 +267,14 @@ footer p {
 
   header nav {
     display: none;
+  }
+
+  header img {
+    width: 25%;
+  }
+
+  header span {
+    font-size: 99%;
   }
 
   #hamburger {
@@ -294,16 +303,5 @@ footer p {
 @media only screen and (min-width: 676px) {
   #myLinks {
     display: none !important;
-  }
-}
-
-/* Small devices like iPhone 5 and new foldable Samsung */
-@media only screen and (max-width: 675px) {
-  header img {
-    width: 25%;
-  }
-
-  header span {
-    font-size: 99%;
   }
 }
