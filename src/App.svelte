@@ -4,9 +4,6 @@
   import Footer from "./components/Footer.svelte";
 </script>
 
-<style>
-</style>
-
 <main>
   <!-- Nav bar component -->
   <Nav />
@@ -25,7 +22,8 @@
       <img
         class="responsiveImage"
         src="images/LPA_Center_Logo.png"
-        alt="LPA Logo" />
+        alt="LPA Logo"
+      />
     </div>
   </div>
 
@@ -45,10 +43,10 @@
   <div id="meeting" class="card">
     <h3>LPA Meeting</h3>
     <p>
-      Our next meeting will be Saturday, January 9, 2021, 0800.
+      Our next meeting will be Saturday, April 110, 2021, 0800.
       <br />
-      The meeting will be held in a private room at Putter's and Gutters on 281
-      South in Lampasas, TX.
+      The meeting will be held in a private room at Putter's and Gutters on 281 South
+      in Lampasas, TX.
     </p>
     <p>
       <a target="_blank" href="https://www.puttersandgutters.com/">
@@ -78,7 +76,8 @@
       allowfullscreen=""
       aria-hidden="false"
       tabindex="0"
-      title="Embedded Google Map of KLZZ" />
+      title="Embedded Google Map of KLZZ"
+    />
     <p>
       <a target="_blank" href="http://www.airnav.com/airport/KLZZ">
         KLZZ at AirNav.com
@@ -89,3 +88,6 @@
   <!-- Footer component -->
   <Footer />
 </main>
+
+<style>
+</style>
