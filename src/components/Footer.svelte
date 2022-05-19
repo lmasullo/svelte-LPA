@@ -7,4 +7,4 @@
 </footer>
 
 <style>
-</footer>
+</style>
