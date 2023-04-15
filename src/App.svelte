@@ -17,7 +17,7 @@
   </div>
 
   <!-- Main logo with image at top of page -->
-  <div id="home" class="carousel ">
+  <div id="home" class="carousel">
     <div class="logo">
       <img class="responsiveImage" src="images/LPA_Center_Logo.png" alt="LPA Logo" />
     </div>
@@ -34,7 +34,7 @@
   <div id="meeting" class="card">
     <h3>LPA Meeting</h3>
     <p>
-      Our next meeting will be Saturday, April 8, 2023, 0800.
+      Our next meeting will be Saturday, June 10, 2023, 0800.
       <br />
       The meeting will be held in a private room at Putter's and Gutters on 281 South in Lampasas, TX.
     </p>
