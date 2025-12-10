@@ -43,7 +43,7 @@
   <div id="meeting" class="card">
     <h3>LPA Meeting</h3>
     <p>
-      Our next meeting will be Saturday, September 13, 2025, 0800.
+      Our next meeting will be Saturday, January 10, 2026, 0800.
       <br />
       The meeting will be held in a private room at Putter's and Gutters on 281 South
       in Lampasas, TX.
