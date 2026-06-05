@@ -43,9 +43,9 @@
   <div id="meeting" class="card">
     <h3>LPA Meeting</h3>
     <p>
-      Our next meeting will be Saturday, April 11, 2026, 0800.
+      Our next meeting will be Saturday, June 13, 2026, 0800.
       <br />
-      The meeting will be held in the back room at the Country Kitchen restaurant in Lampasas, TX.
+      The meeting will be held in Memo’s Mexican Restaurant in Lampasas, TX.
     </p>
     <p>
       <a target="_blank" href="https://www.puttersandgutters.com/">
