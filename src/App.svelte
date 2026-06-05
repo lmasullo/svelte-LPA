@@ -47,11 +47,11 @@
       <br />
       The meeting will be held in Memo’s Mexican Restaurant in Lampasas, TX.
     </p>
-    <p>
+    <!-- <p>
       <a target="_blank" href="https://www.puttersandgutters.com/">
         Click Here for Their Website
       </a>
-    </p>
+    </p> -->
   </div>
 
   <!-- Contact Card -->
