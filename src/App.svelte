@@ -43,7 +43,7 @@
   <div id="meeting" class="card">
     <h3>LPA Meeting</h3>
     <p>
-      Our next meeting will be Saturday, June 13, 2026, 0800.
+      Our next meeting will be Saturday, September 12, 2026, 0800.
       <br />
       The meeting will be held in Memo’s Mexican Restaurant in Lampasas, TX.
     </p>
